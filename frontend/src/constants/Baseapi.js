@@ -1,1 +1,1 @@
-export const API_BASE = "https://aistartupvalidator-backend.onrender.com/api";
+export const API_BASE = "https://aistartupvalidator-backend.onrender.com/api/";
