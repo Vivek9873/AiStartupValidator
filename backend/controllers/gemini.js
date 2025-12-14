@@ -32,7 +32,7 @@ export const analyzeIdea = async (title, description) => {
 
         // Generate content
         const response = await genAI.models.generateContent({
-            model: "gemini-1.5-flash",
+            model: "gemini-2.5-flash",
             contents: prompt,
         });
         console.log(response);
